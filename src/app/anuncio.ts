@@ -3,5 +3,6 @@ export interface Anuncio {
   name : string,
   marca : string,
   preco : string,
+  quantidade : number,
   img : string
 }

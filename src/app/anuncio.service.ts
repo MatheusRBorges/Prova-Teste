@@ -1,4 +1,4 @@
-import { anuncio } from './anuncio/anuncio';
+import { Anuncio } from './anuncio';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
@@ -7,15 +7,14 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AnuncioService {
-  getAnuncio() {
-    throw new Error('Method not implemented.');
-  }
-
+  url : string = 'http://localhost:3000/anuncio';
   constructor(private http: HttpClient) { }
 
-  getProduto(): Observable<anuncio[]> {
-      let url = "http://localhost:3000/anuncio";
-      return this.http.get<anuncio[]>(url);
+  getAnuncio(): Observable<Anuncio[]> {
+    return this.http.get<Anuncio[]>(this.url);
+  }
+
+  salvarAnuncio(anuncio: Anuncio): Observable<Anuncio> {
+    return this.http.post<Anuncio>(this.url, anuncio);
   }
 }
-

@@ -1,4 +1,33 @@
-<h1>Anuncio de Produtos</h1>
+<h1>Cadastro-Anúncio</h1>
+<div class="container m-auto">
+  <div class="col-8 m-auto">
+    <form [formGroup]="formGroupAnuncio">
+      <div class="mb-3">
+        <label for="name" class="form-label">Produto:</label>
+        <input type="text" formControlName="name" class=form-control id="nameProduct" placeholder="Nome Do Produto">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Nome:</label>
+        <input type="email" formControlName="email"class=form-control id="name" placeholder="Nome">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Marca:</label>
+        <input type="email" formControlName="email"class=form-control id="marca" placeholder="Marca">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Preço:</label>
+        <input type="email" formControlName="email"class=form-control id="price" placeholder="Preço">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Quantidade:</label>
+        <input type="email" formControlName="email"class=form-control id="quantity" placeholder="Quantidade">
+      </div>
+      <div class="mb-3 d-flex justify-content-end">
+        <button class="btn btn-primary" (click)="salvarAnuncio()">Salvar</button>
+      </div>
+    </form>
+  </div>
+</div>
 <div class="container text-center">
     <table class="table table-dark">
         <thead class="thead-dark">
@@ -8,17 +37,19 @@
             <th scope="col">Nome</th>
             <th scope="col">Marca</th>
             <th scope="col">Preço</th>
+            <th scope="col">Quantidade</th>
           </tr>
         </thead>
         <tbody>
           <tr *ngFor="let Anuncio of anuncio">
             <th scope="row">{{Anuncio.id}}</th>
-            <td ><img src="{{Anuncio.img}}" alt="" width="80px" height="80px">  </td>
             <td>{{Anuncio.name}}</td>
             <td>{{Anuncio.marca}}</td>
             <td>{{Anuncio.preco}}</td>
+            <td>{{Anuncio.quantidade}}</td>
+            <td ><img src="{{Anuncio.img}}" alt="" width="80px" height="80px">  </td> 
           </tr>
           <tr>
         </tbody>
       </table>
-</div>
+    </div>

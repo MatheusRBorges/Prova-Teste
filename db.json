@@ -5,35 +5,48 @@
       "img": "data:image/webp;base64,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",
       "name": "MICROFONE HYPERX QUADCAST",
       "marca": "Pichau",
-      "preco": "R$ 739.90"
+      "preco": "R$ 739.90",
+      "quantidade": ""
     },
     {
       "id": 2,
-      "img" : "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRGHrRaYvabvGhBieE6UrsKvkZN0cXR4Q3zX0tilOm4SnLdqWrmZONnoDDOlzHfRw9B6CvDVK-Ja9ZJD0EReLYj-WqND6utQtRumTjf2mZTkKMrJJ5vcEJzdTf4ny38Ym7or6c&usqp=CAc",
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRGHrRaYvabvGhBieE6UrsKvkZN0cXR4Q3zX0tilOm4SnLdqWrmZONnoDDOlzHfRw9B6CvDVK-Ja9ZJD0EReLYj-WqND6utQtRumTjf2mZTkKMrJJ5vcEJzdTf4ny38Ym7or6c&usqp=CAc",
       "name": "CADEIRA GAMER TGT HERON",
       "marca": "TGT",
-      "preco": "R$ 699.90"
+      "preco": "R$ 699.90",
+      "quantidade": ""
     },
     {
       "id": 3,
       "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS3KpLQ_ovBvEtkesuatHfNm9ZdqD4PTGtvzJVfVtFXHoVye1T7PmfmozRGGVnqVkRJxzgWBpgFP_wQd4kClKwOKxjmAxYD2xGh8t3rtFMlF7vhZ_s25niklcn9P9ceZbKlr2k&usqp=CAc",
       "name": "HEADSET GAMER CORSAIR VOID",
       "marca": "Corsair",
-      "preco": "R$ 579.99"
+      "preco": "R$ 579.99",
+      "quantidade": ""
     },
     {
       "id": 4,
       "img": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTM2X-4shB-gJzFmDpwoo493CrWK975SoFU9bYS49tfhvmMQuzLJzB6MErAh-Kg_sAXZ52PAZFi6KCAemVxSh2c63glr6sw8yCQtUULvuImy3KwMuxJPHov7ik7lNzOQcZiww&usqp=CAc",
       "name": "MOUSE GAMER RAZER BASILISK",
       "marca": "Razer",
-      "preco": "R$ 499.90"
+      "preco": "R$ 499.90",
+      "quantidade": ""
     },
     {
       "id": 5,
       "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRFxS6POqbWE-UuZ6sF6GqGzClk0HAdwropykcYiR9BsypCGlS2wLqYCRGgng_sXj9A74nMvXCYnwVg7iUco50cIzw-zVEHJJYmoHwR51NFgBMXEUcVbZy8Yt7wNfRLzp7Tag&usqp=CAc",
       "name": "TECLADO MECÂNICO RAZER BLACKWIDOW",
       "marca": "Razer",
-      "preco": "R$ 1.499.90"
+      "preco": "R$ 1.499.90",
+      "quantidade": ""
+    },
+    {
+      "id": 7,
+      "name": "gabinte",
+      "marca": "",
+      "preco": "",
+      "qunatidade": "",
+      "img": ""
     }
   ]
 }
