@@ -1,0 +1,24 @@
+<h1>Anuncio de Produtos</h1>
+<div class="container text-center">
+    <table class="table table-dark">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Produto</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Marca</th>
+            <th scope="col">Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let Anuncio of anuncio">
+            <th scope="row">{{Anuncio.id}}</th>
+            <td ><img src="{{Anuncio.img}}" alt="" width="80px" height="80px">  </td>
+            <td>{{Anuncio.name}}</td>
+            <td>{{Anuncio.marca}}</td>
+            <td>{{Anuncio.preco}}</td>
+          </tr>
+          <tr>
+        </tbody>
+      </table>
+</div>
