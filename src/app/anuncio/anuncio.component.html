@@ -4,23 +4,23 @@
     <form [formGroup]="formGroupAnuncio">
       <div class="mb-3">
         <label for="name" class="form-label">Produto:</label>
-        <input type="text" formControlName="name" class=form-control id="nameProduct" placeholder="Nome Do Produto">
+        <input type="text" formControlName="produto" class=form-control id="nameProduct" placeholder="Nome Do Produto">
       </div>
       <div class="mb-3">
         <label for="email" class="form-label">Nome:</label>
-        <input type="email" formControlName="email"class=form-control id="name" placeholder="Nome">
+        <input type="email" formControlName="name"class=form-control id="name" placeholder="Nome">
       </div>
       <div class="mb-3">
         <label for="email" class="form-label">Marca:</label>
-        <input type="email" formControlName="email"class=form-control id="marca" placeholder="Marca">
+        <input type="email" formControlName="marca"class=form-control id="marca" placeholder="Marca">
       </div>
       <div class="mb-3">
         <label for="email" class="form-label">Preço:</label>
-        <input type="email" formControlName="email"class=form-control id="price" placeholder="Preço">
+        <input type="email" formControlName="preco"class=form-control id="price" placeholder="Preço">
       </div>
       <div class="mb-3">
         <label for="email" class="form-label">Quantidade:</label>
-        <input type="email" formControlName="email"class=form-control id="quantity" placeholder="Quantidade">
+        <input type="email" formControlName="quantidade"class=form-control id="quantity" placeholder="Quantidade">
       </div>
       <div class="mb-3 d-flex justify-content-end">
         <button class="btn btn-primary" (click)="salvarAnuncio()">Salvar</button>
@@ -47,7 +47,7 @@
             <td>{{Anuncio.marca}}</td>
             <td>{{Anuncio.preco}}</td>
             <td>{{Anuncio.quantidade}}</td>
-            <td ><img src="{{Anuncio.img}}" alt="" width="80px" height="80px">  </td> 
+            <td ><img src="{{Anuncio.img}}" alt="" width="80px" height="80px"></td>
           </tr>
           <tr>
         </tbody>
